@@ -13,6 +13,9 @@ public class ComponenteLexico {
     public String getEtiqueta() {
         return this.etiqueta;
     }
+    public String getValor(){
+        return this.valor;
+    }
     // toString() devuelve una cadena con el contenido del token
     public String toString() {
         if (this.valor.length() == 0)
